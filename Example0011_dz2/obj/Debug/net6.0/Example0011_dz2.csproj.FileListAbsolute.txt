@@ -1,0 +1,15 @@
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\bin\Debug\net6.0\Example0011_dz2.exe
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\bin\Debug\net6.0\Example0011_dz2.deps.json
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\bin\Debug\net6.0\Example0011_dz2.runtimeconfig.json
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\bin\Debug\net6.0\Example0011_dz2.dll
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\bin\Debug\net6.0\Example0011_dz2.pdb
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.csproj.AssemblyReference.cache
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.GeneratedMSBuildEditorConfig.editorconfig
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.AssemblyInfoInputs.cache
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.AssemblyInfo.cs
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.csproj.CoreCompileInputs.cache
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.dll
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\refint\Example0011_dz2.dll
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.pdb
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\Example0011_dz2.genruntimeconfig.cache
+E:\CodeProject\Sharps\SharpLine\Example0011_dz2\obj\Debug\net6.0\ref\Example0011_dz2.dll
