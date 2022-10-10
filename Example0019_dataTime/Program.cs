@@ -70,25 +70,32 @@ String[,] s9 ={
 
 DateTime dateTime = new DateTime();
 dateTime = DateTime.Now;
-int h1 = 0;
-int h2 = 0;
-int min1 = 1;
-int min2 = 2;
-String[,] mas1 = s0;
-String[,] mas2 = s0;
-String[,] mas3 = s0;
-String[,] mas4 = s0;
+int h1, h2, min1, min2, sec1, sec2;
+// int h1 = 0;
+// int h2 = 0;
+// int min1 = 0;
+// int min2 = 0;
+// int sec1 = 0;
+// int sec2 = 0;
+String[,] mas1 = s0, mas2 = s0, mas3 = s0, mas4 = s0, mas5 = s0, mas6 = s0;
+// String[,] mas1 = s0;
+// String[,] mas2 = s0;
+// String[,] mas3 = s0;
+// String[,] mas4 = s0;
+// String[,] mas5 = s0;
+// String[,] mas6 = s0;
 while (true)
 {
     //Console.Clear();
     // dateTime = DateTime.Now;
     // Console.Write($"{dateTime.Hour}:{dateTime.Minute}:{dateTime.Second} ");
-
     dateTime = DateTime.Now;
     h1 = dateTime.Hour / 10;
     h2 = dateTime.Hour % 10;
     min1 = dateTime.Minute / 10;
     min2 = dateTime.Minute % 10;
+    sec1 = dateTime.Second / 10;
+    sec2 = dateTime.Second % 10;
     for (int i = 0; i < 5; i++)
     {
         switch (h1)
@@ -223,6 +230,72 @@ while (true)
                 mas4 = s9;
                 break;
         }
+        switch (sec1)
+        {
+            case 0:
+                mas5 = s0;
+                break;
+            case 1:
+                mas5 = s1;
+                break;
+            case 2:
+                mas5 = s2;
+                break;
+            case 3:
+                mas5 = s3;
+                break;
+            case 4:
+                mas5 = s4;
+                break;
+            case 5:
+                mas5 = s5;
+                break;
+            case 6:
+                mas5 = s6;
+                break;
+            case 7:
+                mas5 = s7;
+                break;
+            case 8:
+                mas5 = s8;
+                break;
+            case 9:
+                mas5 = s9;
+                break;
+        }
+        switch (sec2)
+        {
+            case 0:
+                mas6 = s0;
+                break;
+            case 1:
+                mas6 = s1;
+                break;
+            case 2:
+                mas6 = s2;
+                break;
+            case 3:
+                mas6 = s3;
+                break;
+            case 4:
+                mas6 = s4;
+                break;
+            case 5:
+                mas6 = s5;
+                break;
+            case 6:
+                mas6 = s6;
+                break;
+            case 7:
+                mas6 = s7;
+                break;
+            case 8:
+                mas6 = s8;
+                break;
+            case 9:
+                mas6 = s9;
+                break;
+        }
         Console.Write(mas1[i, 0]);
         Console.Write("  ");
         Console.Write(mas2[i, 0]);
@@ -232,15 +305,21 @@ while (true)
         Console.Write(mas3[i, 0]);
         Console.Write("  ");
         Console.Write(mas4[i, 0]);
+        Console.Write("  ");
+        Console.Write("|");
+        Console.Write("  ");
+        Console.Write(mas5[i, 0]);
+        Console.Write("  ");
+        Console.Write(mas6[i, 0]);
         Console.WriteLine();
     }
-    Thread.Sleep(3000);
+    Thread.Sleep(1000);
     Console.Clear();
 }
-void printBoard(string[,] num)
-{
-    foreach (String s1 in num)
-    {
-        Console.WriteLine(s1);
-    }
-}
+// void printBoard(string[,] num)
+// {
+//     foreach (String s1 in num)
+//     {
+//         Console.WriteLine(s1);
+//     }
+// }
