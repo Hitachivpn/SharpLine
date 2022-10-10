@@ -236,10 +236,6 @@ while (true)
     }
     Thread.Sleep(3000);
     Console.Clear();
-
-
-
-
 }
 void printBoard(string[,] num)
 {
@@ -248,7 +244,3 @@ void printBoard(string[,] num)
         Console.WriteLine(s1);
     }
 }
-
-
-
-
